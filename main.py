@@ -73,7 +73,7 @@ print(decoupage_liste(phrase))
 etat = 6
 type_mot = 2
 
-
+# Récupérer l'état suivant
 print(tableau_transitions[etat][type_mot])
 
     

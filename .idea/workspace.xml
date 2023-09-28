@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1644e9-b30e-4366-a4b4-e8a9e13bf570" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fonction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionnaire.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionnaire.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2W0tvdCh7LnXQ3hlUkc8heQ334j" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/maxime/CPE-CS/TP2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695881558847</updated>
       <workItem from="1695881560005" duration="4323000" />
+      <workItem from="1695889973520" duration="50000" />
     </task>
     <servers />
   </component>
