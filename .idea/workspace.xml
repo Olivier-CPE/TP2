@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1644e9-b30e-4366-a4b4-e8a9e13bf570" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fonction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionnaire.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionnaire.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "last_opened_file_path": "/Users/maxime/CPE-CS/TP2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695881558847</updated>
-      <workItem from="1695881560005" duration="3886000" />
+      <workItem from="1695881560005" duration="4323000" />
     </task>
     <servers />
   </component>

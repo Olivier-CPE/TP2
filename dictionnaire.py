@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
- * @author : maxime
+ * @author : maxime et olivier
  * @email : maxime.barthomeuf@cpe.fr
  * @date : 28/09/2023, jeudi
  * TODO :

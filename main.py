@@ -68,3 +68,13 @@ liste = decoupage_liste(phrase)
 liste_types = [getType(a) for a in liste]
 
 print(liste_types)
+print(decoupage_liste(phrase))
+
+etat = 6
+type_mot = 2
+
+
+print(tableau_transitions[etat][type_mot])
+
+    
+
