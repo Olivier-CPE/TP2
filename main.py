@@ -56,3 +56,12 @@ def decoupage_liste(string):
 
 
 print(decoupage_liste(phrase))
+
+etat = 6
+type_mot = 2
+
+
+print(tableau_transitions[etat][type_mot])
+
+    
+
