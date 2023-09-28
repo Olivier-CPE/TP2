@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1644e9-b30e-4366-a4b4-e8a9e13bf570" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fonctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionnaire.py" beforeDir="false" afterPath="$PROJECT_DIR$/constantes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$TP2.xlsx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionnaire.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/constantes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/fonctions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695881558847</updated>
       <workItem from="1695881560005" duration="4323000" />
-      <workItem from="1695889973520" duration="5999000" />
+      <workItem from="1695889973520" duration="6780000" />
     </task>
     <servers />
   </component>

@@ -11,8 +11,15 @@
 import constantes
 
 # import des constantes
-dictionnaire = constantes.dictionnaire
 tableau_transitions = constantes.tableau_transitions
+
+
+with open("dictionnaire.txt") as fichier:
+    contenu = fichier.read()
+    contenu = contenu.split("\n")
+    contenu = [a.split(": ") for a in contenu]
+    contenu = {a[0]: int(a[1]) for a in contenu}
+    dictionnaire = contenu
 
 
 def decoupage_liste(string):
