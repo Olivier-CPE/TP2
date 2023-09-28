@@ -24,8 +24,6 @@ tableau_transitions = (
     (1, 8, 8, 8, 4, 8)
 )
 
-phrase = "Olivier vend un ananas bdjkabdjk."
-
 
 def decoupage_liste(string):
     # decoupe la phrase en liste de mots et de ponctuation
@@ -63,18 +61,30 @@ def getType(string):
         return None
 
 
-liste = decoupage_liste(phrase)
+def main():
+    etat = 0  # etat initial
 
-liste_types = [getType(a) for a in liste]
+    phrase = "Olivier vend un ananas."
 
-print(liste_types)
-print(decoupage_liste(phrase))
+    liste = decoupage_liste(phrase)  # liste de mots et de ponctuation
 
-etat = 6
-type_mot = 2
+    liste_types = [getType(a) for a in liste]  # liste des types de chaque mot
 
-# Récupérer l'état suivant
-print(tableau_transitions[etat][type_mot])
+    for type in liste_types:
+        # print(type)
+        if type is None:
+            print("Erreur : mot inconnu")
+            return
 
-    
+        etat = tableau_transitions[etat][type]
 
+        if etat == 8:
+            print("Erreur : phrase invalide")
+            return
+
+    if etat == 9:
+        print("Phrase valide")
+
+
+if __name__ == "__main__":
+    main()
