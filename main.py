@@ -24,7 +24,7 @@ tableau_transitions = (
     (1, 8, 8, 8, 4, 8)
 )
 
-phrase = "Olivier vend un ananas."
+phrase = "Olivier vend un ananas bdjkabdjk."
 
 
 def decoupage_liste(string):
@@ -50,9 +50,21 @@ def decoupage_liste(string):
         else:
             mot += i
 
-    liste.append(mot)
+    if mot != "":
+        liste.append(mot)
 
     return liste
 
 
-print(decoupage_liste(phrase))
+def getType(string):
+    if string in dictionnaire:
+        return dictionnaire[string]
+    else:
+        return None
+
+
+liste = decoupage_liste(phrase)
+
+liste_types = [getType(a) for a in liste]
+
+print(liste_types)
